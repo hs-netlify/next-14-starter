@@ -38,6 +38,12 @@ export default function Home() {
           priority
         />
       </div>
+      <Image
+        src={`https://picsum.photos/seed/${Math.random}/200/300`}
+        width={500}
+        height={300}
+        alt={"Random Image"}
+      />
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
